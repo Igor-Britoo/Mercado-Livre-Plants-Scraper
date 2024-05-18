@@ -149,6 +149,66 @@
 			"meta_categ_id": null,
 			"attributable": false,
 			"date_created": "2018-04-25T08:12:56.000Z"
+		},
+		{
+			"id": "MLB455505",
+			"name": "Kefir",
+			"picture": null,
+			"permalink": null,
+			"total_items_in_this_category": 201,
+			"path_from_root": [],
+			"children_categories": [],
+			"attribute_types": "attributes",
+			"settings": {},
+			"channels_settings": [],
+			"meta_categ_id": null,
+			"attributable": false,
+			"date_created": "2021-04-05T13:25:15.480Z"
+		},
+		{
+			"id": "MLB2797",
+			"name": "Óleos",
+			"picture": null,
+			"permalink": null,
+			"total_items_in_this_category": 3961,
+			"path_from_root": [],
+			"children_categories": [],
+			"attribute_types": "attributes",
+			"settings": {},
+			"channels_settings": [],
+			"meta_categ_id": null,
+			"attributable": false,
+			"date_created": "2018-04-25T08:12:56.000Z"
+		},
+		{
+			"id": "MLB2796",
+			"name": "Cremes",
+			"picture": null,
+			"permalink": null,
+			"total_items_in_this_category": 8571,
+			"path_from_root": [],
+			"children_categories": [],
+			"attribute_types": "attributes",
+			"settings": {},
+			"channels_settings": [],
+			"meta_categ_id": null,
+			"attributable": false,
+			"date_created": "2018-04-25T08:12:56.000Z"
+		},
+		{
+			"id": "MLB270259",
+			"name": "Pílulas e Cápsulas",
+			"picture": null,
+			"permalink": null,
+			"total_items_in_this_category": 3713,
+			"path_from_root": [],
+			"children_categories": [],
+			"attribute_types": "attributes",
+			"settings": {},
+			"channels_settings": [],
+			"meta_categ_id": null,
+			"attributable": false,
+			"date_created": "2018-04-25T08:12:56.000Z"
 		}
 	]
 }
