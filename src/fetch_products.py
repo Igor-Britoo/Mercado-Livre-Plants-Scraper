@@ -27,7 +27,7 @@ def fetch_products_in_category(query, category_id):
     response = requests.get(f'{REQUEST_URL}?q={query_encoded}&category={category_id}').json()
 
     # Continue fetching products while offset is within the total number of products
-    while (offset <= (response['paging']['total'] - 50)) and offset <= 1000:
+    while (offset <= (response['paging']['total'] - 50)) and offset <= 950:
       offset += 50
 
       # Request the next batch of products with the updated offset
@@ -48,6 +48,7 @@ def fetch_products_in_category(query, category_id):
   except Exception as e:
     # Handle any other unexpected exceptions
     print(f'An unexpected error occurred: {e}')
+    print(category_id, offset)
 
   return products
 

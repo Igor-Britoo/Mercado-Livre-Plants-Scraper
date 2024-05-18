@@ -42,7 +42,7 @@ for thread in threads:
 
 # Display execution summary
 print('\n\n================================================================')
-finish_time = datetime.datetime.now()
+finish_time = datetime.now()
 start_time_string = start_time.strftime('%d/%m/%Y %H:%M')
 finish_time_string = finish_time.strftime('%d/%m/%Y %H:%M')
 print('The execution started at ' + start_time_string)
