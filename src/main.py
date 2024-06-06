@@ -1,9 +1,9 @@
 import json
 import threading
-from fetch_products import fetch_products_for_plants
+from fetch_products import fetch_and_save_products_for_plants
 from datetime import datetime
 
-N_THREADS = 3
+N_THREADS = 5
 
 # Get the start time for measuring execution time
 start_time = datetime.now()
@@ -32,7 +32,7 @@ for index in range(N_THREADS):
 # Create threads to fetch products for each slice of plants
 threads = []
 for i in range(N_THREADS):
-  thread = threading.Thread(target=fetch_products_for_plants, args=(categories, plant_slices[i]))
+  thread = threading.Thread(target=fetch_and_save_products_for_plants, args=(categories, plant_slices[i]))
   threads.append(thread)
   thread.start()
 
